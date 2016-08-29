@@ -16,22 +16,24 @@
 
 
 ### 下载安装
-    将下载好的`UIImage+ImageEffects.h/.m`
-            `HyParallaxCurveHeaderView.h/.m`
-    拖进项目
+将下载好的项目提取以下类托入项目中
+`UIImage+ImageEffects.h/.m`
+`HyParallaxCurveHeaderView.h/.m`
+将`HyParallaxCurveHeaderView.h`import
 
 ###使用方法
-    实例`HyParallaxCurveHeaderView`
-    ```obj
-        
-    HyParallaxCurveHeaderView *curveHeaderView = [HyParallaxCurveHeaderView loadHeaderCurveViewWithSize:CGSizeMake(CGRectGetWidth([UIScreen mainScreen].bounds), 300)];
 
-    ```
+实例`HyParallaxCurveHeaderView`
+```obj
+HyParallaxCurveHeaderView *curveHeaderView = [HyParallaxCurveHeaderView loadHeaderCurveViewWithSize:CGSizeMake(CGRectGetWidth([UIScreen mainScreen].bounds), 300)];
+_tableView.tableHeaderView = curveHeaderView;
+```
 
 ###属性以及方法说明
+* 待补全
 
 ### 注意事项
-开源库需要[Facebook](https://github.com/facebook)开源的动画框架-[Pop](https://github.com/facebook/pop)支持。
+* 暂无
 
 ### 期待
 * 如果在使用过程中遇到BUG，希望你能Issues我
