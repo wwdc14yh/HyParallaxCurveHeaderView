@@ -5,21 +5,28 @@
              )](https://developer.apple.com/iphone/index.action)
 [![Language](http://img.shields.io/badge/language-ObjC-brightgreen.svg?style=flat)](https://developer.apple.com/Objective-C)
 [![License](http://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat)](http://mit-license.org)
-> 关于**HyPopMenuView**灵感来自于[智联招聘App]()
+> 关于**HyParallaxCurveHeaderView**灵感来自于[智联招聘App]()
 
 ####示例:  
 
-![image](https://github.com/wwdc14/HyParallaxCurveHeaderView/blob/master/HyParallaxCurveHeaderView/preview.gif)
+![image](https://github.com/wwdc14/HyParallaxCurveHeaderViewDemo/blob/master/HyParallaxCurveHeaderViewDemo/preview.gif)
 
 ###原理说明
 1.采用贝塞尔曲线绘制曲线视图具体看`- (void)drawRect:(CGRect)rect`方法
 
 
 ### 下载安装
-安装方法:  
+    将下载好的`UIImage+ImageEffects.h/.m`
+            `HyParallaxCurveHeaderView.h/.m`
+    拖进项目
 
 ###使用方法
+    实例`HyParallaxCurveHeaderView`
+    ```obj
+        
+    HyParallaxCurveHeaderView *curveHeaderView = [HyParallaxCurveHeaderView loadHeaderCurveViewWithSize:CGSizeMake(CGRectGetWidth([UIScreen mainScreen].bounds), 300)];
 
+    ```
 
 ###属性以及方法说明
 
