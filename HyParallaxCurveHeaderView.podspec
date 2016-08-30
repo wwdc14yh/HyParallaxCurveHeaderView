@@ -64,11 +64,11 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-   s.platform     = :ios
+  #s.platform     = :ios
    s.platform     = :ios, "6.0"
 
   #  When using multiple platforms
-  # s.ios.deployment_target = "5.0"
+    s.ios.deployment_target = "6.0"
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
 
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/wwdc14/HyParallaxCurveHeaderView.git", :tag => "0.0.2" }
+  s.source       = { :git => "https://github.com/wwdc14/HyParallaxCurveHeaderView.git", :tag => "0.0.1" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,10 +90,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-   s.source_files  = 'HyParallaxCurveHeaderViewDemo/HyParallaxCurveHeaderView.{h,m}'
-  #s.exclude_files = "Classes/Exclude"
+   s.source_files  = 'HyParallaxCurveHeaderViewClass/**/*.{h,m}'
+  #s.exclude_files = ""
 
-  # s.public_header_files = "Classes/**/*.h"
+  # s.public_header_files = "HyParallaxCurveHeaderViewClass/**/*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
