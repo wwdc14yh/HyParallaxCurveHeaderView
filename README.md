@@ -21,6 +21,9 @@
 `HyParallaxCurveHeaderView.h/.m`
 将`HyParallaxCurveHeaderView.h`import
 
+或者使用`CocoaPods`进行集成库
+打开`Podfile`添加`pod 'HyParallaxCurveHeaderView', :git => 'https://github.com/wwdc14/HyParallaxCurveHeaderView.git'`保存->`pod install`
+
 ###使用方法
 
 实例`HyParallaxCurveHeaderView`
