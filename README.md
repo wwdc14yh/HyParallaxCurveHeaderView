@@ -30,7 +30,34 @@ _tableView.tableHeaderView = curveHeaderView;
 ```
 
 ###属性以及方法说明
-* 待补全
+* 属性
+
+`@property (nonatomic) CGFloat curveFloat` 曲线弧度取值范围0.0~1.0
+
+`@property (nonatomic) BOOL suggestCurve`  是否设置推荐弧度(为YES"curveFloat"属性失效)
+
+`@property (nonatomic, strong, nonnull) UIColor *curveColor` 曲面颜色
+
+`@property (nonatomic, strong, nonnull) UIColor *backgroundColor` 背景颜色
+
+`@property (nonatomic) CGFloat imageWidth` imageView宽度
+
+`@property (nonatomic, nonnull, strong, readonly) UIView *followBottomView` 跟随底部View
+
+`@property (nonatomic, nonnull, strong, readonly) UIImageView *imageView` imageView
+
+`@property (nonatomic, strong, nonnull) UIColor *blurTintColor` 模糊颜色
+
+`@property (assign, nonatomic) BOOL isShowBlur` 是否显示模糊
+
+`@property (assign, nonatomic) BOOL isParallax` 是否具有视差效果
+
+
+* 函数
+
+`- (void) layoutHeaderViewForScrollViewOffset:(CGPoint)offset` 实现下拉改变曲面重要方法(必须调用)
+
+`+ (_Nonnull instancetype)loadHeaderCurveViewWithSize:(CGSize)size` 初始化方法
 
 ### 注意事项
 * 暂无
