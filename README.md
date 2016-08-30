@@ -30,7 +30,7 @@ _tableView.tableHeaderView = curveHeaderView;
 ```
 
 ###属性以及方法说明
-* 属性
+# 属性
 
 `@property (nonatomic) CGFloat curveFloat` 曲线弧度取值范围0.0~1.0
 
@@ -52,15 +52,15 @@ _tableView.tableHeaderView = curveHeaderView;
 
 `@property (assign, nonatomic) BOOL isParallax` 是否具有视差效果
 
-
-* 函数
+# 函数
 
 `- (void) layoutHeaderViewForScrollViewOffset:(CGPoint)offset` 实现下拉改变曲面重要方法(必须调用)
 
 `+ (_Nonnull instancetype)loadHeaderCurveViewWithSize:(CGSize)size` 初始化方法
 
 ### 注意事项
-* 暂无
+
+* 非常感谢[Vinodh-G](https://github.com/Vinodh-G/ParallaxTableViewHeader)开源的`ParallaxTableViewHeader`三方库提供滑动视差效果. 
 
 ### 期待
 * 如果在使用过程中遇到BUG，希望你能Issues我
