@@ -15,3 +15,5 @@ target 'HyParallaxCurveHeaderViewDemoUITests' do
 
 end
 
+pod repo add master https://gitcafe.com/akuandev/Specs.git;
+Cloning spec repo `master` from `https://gitcafe.com/akuandev/Specs.git`

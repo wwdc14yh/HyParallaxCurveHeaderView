@@ -15,11 +15,11 @@
 		7A9FD11E1D7432B200156442 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A9FD11C1D7432B200156442 /* LaunchScreen.storyboard */; };
 		7A9FD1291D7432B200156442 /* HyParallaxCurveHeaderViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9FD1281D7432B200156442 /* HyParallaxCurveHeaderViewDemoTests.m */; };
 		7A9FD1341D7432B200156442 /* HyParallaxCurveHeaderViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9FD1331D7432B200156442 /* HyParallaxCurveHeaderViewDemoUITests.m */; };
-		7A9FD1461D7432ED00156442 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9FD1431D7432ED00156442 /* UIImage+ImageEffects.m */; };
-		7A9FD1471D7432ED00156442 /* HyParallaxCurveHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9FD1451D7432ED00156442 /* HyParallaxCurveHeaderView.m */; };
 		7A9FD14B1D74333000156442 /* TestViews.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9FD1491D74333000156442 /* TestViews.m */; };
 		7A9FD14C1D74333000156442 /* TestViews.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A9FD14A1D74333000156442 /* TestViews.xib */; };
 		7A9FD14E1D7435EE00156442 /* preview.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7A9FD14D1D7435EE00156442 /* preview.gif */; };
+		7A9FD1541D75282D00156442 /* HyParallaxCurveHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9FD1511D75282D00156442 /* HyParallaxCurveHeaderView.m */; };
+		7A9FD1551D75282D00156442 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A9FD1531D75282D00156442 /* UIImage+ImageEffects.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,14 +56,14 @@
 		7A9FD12F1D7432B200156442 /* HyParallaxCurveHeaderViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HyParallaxCurveHeaderViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A9FD1331D7432B200156442 /* HyParallaxCurveHeaderViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HyParallaxCurveHeaderViewDemoUITests.m; sourceTree = "<group>"; };
 		7A9FD1351D7432B200156442 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7A9FD1421D7432ED00156442 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
-		7A9FD1431D7432ED00156442 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
-		7A9FD1441D7432ED00156442 /* HyParallaxCurveHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HyParallaxCurveHeaderView.h; sourceTree = "<group>"; };
-		7A9FD1451D7432ED00156442 /* HyParallaxCurveHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HyParallaxCurveHeaderView.m; sourceTree = "<group>"; };
 		7A9FD1481D74333000156442 /* TestViews.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViews.h; sourceTree = "<group>"; };
 		7A9FD1491D74333000156442 /* TestViews.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViews.m; sourceTree = "<group>"; };
 		7A9FD14A1D74333000156442 /* TestViews.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViews.xib; sourceTree = "<group>"; };
 		7A9FD14D1D7435EE00156442 /* preview.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = preview.gif; sourceTree = "<group>"; };
+		7A9FD1501D75282D00156442 /* HyParallaxCurveHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HyParallaxCurveHeaderView.h; sourceTree = "<group>"; };
+		7A9FD1511D75282D00156442 /* HyParallaxCurveHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HyParallaxCurveHeaderView.m; sourceTree = "<group>"; };
+		7A9FD1521D75282D00156442 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		7A9FD1531D75282D00156442 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +114,7 @@
 		7A9FD10D1D7432B200156442 /* HyParallaxCurveHeaderViewDemo */ = {
 			isa = PBXGroup;
 			children = (
-				7A9FD1411D7432E400156442 /* HyParallaxCurveHeaderViewClass */,
+				7A9FD14F1D75282D00156442 /* HyParallaxCurveHeaderViewClass */,
 				7A9FD1111D7432B200156442 /* AppDelegate.h */,
 				7A9FD1121D7432B200156442 /* AppDelegate.m */,
 				7A9FD1141D7432B200156442 /* ViewController.h */,
@@ -158,15 +158,15 @@
 			path = HyParallaxCurveHeaderViewDemoUITests;
 			sourceTree = "<group>";
 		};
-		7A9FD1411D7432E400156442 /* HyParallaxCurveHeaderViewClass */ = {
+		7A9FD14F1D75282D00156442 /* HyParallaxCurveHeaderViewClass */ = {
 			isa = PBXGroup;
 			children = (
-				7A9FD1421D7432ED00156442 /* UIImage+ImageEffects.h */,
-				7A9FD1431D7432ED00156442 /* UIImage+ImageEffects.m */,
-				7A9FD1441D7432ED00156442 /* HyParallaxCurveHeaderView.h */,
-				7A9FD1451D7432ED00156442 /* HyParallaxCurveHeaderView.m */,
+				7A9FD1501D75282D00156442 /* HyParallaxCurveHeaderView.h */,
+				7A9FD1511D75282D00156442 /* HyParallaxCurveHeaderView.m */,
+				7A9FD1521D75282D00156442 /* UIImage+ImageEffects.h */,
+				7A9FD1531D75282D00156442 /* UIImage+ImageEffects.m */,
 			);
-			name = HyParallaxCurveHeaderViewClass;
+			path = HyParallaxCurveHeaderViewClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,9 +305,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A9FD1461D7432ED00156442 /* UIImage+ImageEffects.m in Sources */,
-				7A9FD1471D7432ED00156442 /* HyParallaxCurveHeaderView.m in Sources */,
 				7A9FD14B1D74333000156442 /* TestViews.m in Sources */,
+				7A9FD1541D75282D00156442 /* HyParallaxCurveHeaderView.m in Sources */,
+				7A9FD1551D75282D00156442 /* UIImage+ImageEffects.m in Sources */,
 				7A9FD1161D7432B200156442 /* ViewController.m in Sources */,
 				7A9FD1131D7432B200156442 /* AppDelegate.m in Sources */,
 				7A9FD1101D7432B200156442 /* main.m in Sources */,
