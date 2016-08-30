@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HyParallaxCurveHeaderView"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A short description of HyParallaxCurveHeaderView."
 
   s.description  = <<-DESC
@@ -79,7 +79,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/wwdc14/HyParallaxCurveHeaderView.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/wwdc14/HyParallaxCurveHeaderView.git", :tag => "0.0.2" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
