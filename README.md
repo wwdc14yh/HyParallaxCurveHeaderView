@@ -27,6 +27,7 @@
 打开`Podfile`添加以下代码
 
 `pod 'HyParallaxCurveHeaderView', :git => 'https://github.com/wwdc14/HyParallaxCurveHeaderView.git'`
+
 保存->`pod install`
 
 ###使用方法
